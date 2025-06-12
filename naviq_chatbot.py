@@ -3,8 +3,7 @@ import streamlit as st
 from datetime import datetime
 
 # API Configuration
-GOOGLE_API_KEY = "AIzaSyCym-9SzDNXVECOBqFy7hvCm6q4IalIZNo"
-genai.configure(api_key=GOOGLE_API_KEY)
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 # Model Initialization
 model = genai.GenerativeModel('gemini-1.5-flash')
