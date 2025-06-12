@@ -20,8 +20,8 @@ def getResponseFromModel(user_input):
         return "Sorry, something went wrong. Please try again later."
 
 # App config
-st.set_page_config(page_title="NaviQ AI Chatbot", page_icon="🤖", layout="centered")
-st.title("🤖 NaviQ: Your Smart AI Interview Companion")
+st.set_page_config(page_title="NavIQ AI Chatbot", page_icon="🤖", layout="centered")
+st.title("🤖 NavIQ: AI Interview Companion")
 st.markdown("""
 <style>
 /* General layout */
