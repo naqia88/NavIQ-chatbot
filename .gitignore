@@ -1,0 +1,15 @@
+# Byte-code files
+__pycache__/
+*.pyc
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Environment files
+.env
+
+# Mac files
+.DS_Store
+
+# Deployment files
+venv/
